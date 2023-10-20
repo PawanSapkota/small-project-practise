@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(21, 21, 94);
+    color: white;
+    font-family: sans-serif;
+}
+.pw-container{
+    background-color: rebeccapurple;
+    width: 500px;
+    height: 300px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.5) ;
+}
+.pw-header{
+    padding:   1rem;
+}
+.pw{
+    background-color: rgb(47, 16, 78);
+    height: 50px;
+    font-size: 1rem;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+}
+.pw button{
+    background-color: rosybrown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.25rem;
+    font-size: 15px;
+    transform: translate(0,80%);
+    top: 0;
+    right: 0;
+    position: absolute;
+    transition: opacity 0.2s ease;
+    opacity: 0;
+}
+.pw:hover button{
+    opacity: 1;
+}
+.pw-body{
+padding: 1rem;
+}
+.pw-body button{
+    margin:1rem 0;
+    padding: 0.5rem;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(3, 26, 94);
+    color: white;
+}
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    padding: 4px;
+    
+}

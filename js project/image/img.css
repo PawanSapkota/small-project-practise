@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;    
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+    overflow: hidden;
+}
+.img-container{    
+    display: flex;
+    transition: transform 0.3s linear;
+    transform: translateX(0);
+}
+.img-container img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;    
+}

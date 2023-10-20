@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.nav-icon{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  1rem auto ;
+}
+.navigation ul li{
+    list-style: none;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;    
+}
